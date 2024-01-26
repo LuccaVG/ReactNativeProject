@@ -7,7 +7,7 @@ export default function App() {
       <Image
         style={styles.image}  
         source={{
-          uri:"https://www.shutterstock.com/image-vector/user-login-authenticate-icon-human-600nw-1365533969.jpg"
+          uri:"https://cdn0.iconfinder.com/data/icons/follower/154/follower-man-user-login-round-512.png"
         }}
       />
 
@@ -35,7 +35,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#E07E79',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -54,6 +54,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     padding: 10,
     marginTop: 60,
+    borderRadius: 22, 
+    backgroundColor: 'white',
   },
   input2: {
     width: '90%',
@@ -61,14 +63,24 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     padding: 10,
     marginTop: 80,
+    borderRadius: 22,
+    backgroundColor: 'white',
   },
   textButton:{
+    borderRadius: 22,
+    textAlign: 'center',
+    fontSize: 36,
+    justifyContent: 'center',
+    alignItems: 'center',
+    color: '#F2F2F2',
+  },
+  btn: {
     width: 140,
     height: 60,
     borderWidth: 1,
     marginTop: 60,
-    textAlign: 'center',
-    fontSize: 36,
     marginBottom: 80,
-  },
+    backgroundColor: '#424242',
+    borderRadius: 22,
+  }
 });
